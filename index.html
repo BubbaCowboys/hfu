@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styler.css">
+      <link rel="stylesheet" href="swiper-bundle.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://kit.fontawesome.com/4435dfdb9e.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      
+     <!--Navbar-->
+       <header class="header row container">
+         <a href="#" class="logo row">
+            
+            <h1>Heart for the Unhoused</h1>
+         </a>
+         <div class="toggleMenu" onclick="toggleMenu();"></div>   
+      <nav class="navigation row">
+         <ul class="row">
+               <li onclick="toggleMenu();"><a href="#home">Home</a></li>
+               <li onclick="toggleMenu();"><a href="#about">About Us</a></li>
+               <li onclick="toggleMenu();"><a href="#access">Guides</a></li>
+               <li onclick="toggleMenu();"><a href="#footer">Contact Us</a></li>
+         </ul>
+      </nav>
+   </header> 
+      
+      <!--Hero Section-->
+      <section class="hero row container" id="home">
+         <div>
+            <h1>Aiding the Homeless One City at a Time</h1>
+            <p>Over Thirty Resource Guides Created Across the US!</p>
+            <a href="#access" class="hero_btn">Access Guides</a>
+         </div>
+         <div class="row">
+            <img src="images/undraw_best_place_re_lne9.svg" id="hero__img" alt="">
+         </div>
+      </section>
+      </div>
+
+      
+      <!--About Us Section-->
+      
+      <section class="about" id="about">
+         
+         <div class="about__content">
+            <img src="images/undraw_medicine_b-1-ol (1).svg" alt="">
+            <div class="text">
+               <h1>About Us</h1>
+               <h5>Student led Organization</h5>
+               <p>We have three main goals: giving the homeless a better
+                  understanding of current health, showing them they have the power
+                  to achieve a healthy lifestyle, and informing them of primary 
+                  care providers around them. In pursuit of goal three, we launched
+                  our National Primary Care Resources Project in Summer 2020. 
+                  Over 80 volunteers from around the country worked to create 
+                  comprehensive Resource Guides to low-cost healthcare resources in
+                  their communities and distribute them to places such as homeless 
+                  shelters and soup kitchens that are frequented by homeless individuals.  
+               </p>
+               <a href="#footer" class="about_btn">Contact Us</a></div>
+         </div>
+      </section>
+
+      <!--Access Guides Section-->
+      <div class="access_container" id="access">
+         <h1>Access Guides in <span class="auto-type"></span></h1>
+      </div>
+      
+      <div class="search">
+         <div class="search_container">
+            <form>
+               <input type="text" name="" id="search-item" placeholder="Search Guides"
+               onkeyup="search(event)">
+            </form>
+            <div class="product-list" id="product-list">
+               
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1vEtT2AAnQ67IVAwFsVu-4tkOPti0jRe9kxW3HOD26AY/edit" target="_blank" id="aa">Ann Arbor, Michigan</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1LEiMyuK7Mcd6qsGTD3y7ZipiV3D9y7M2NZwGm_RkWrw/edit" target="_blank" id="aa">Apex, North Carolina</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1a3umYMXgoXHIiZx_y_iyl0P0GxaFi-l6w0Btj4o2auA/edit" target="_blank" id="aa">Cary, North Carolina</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1xOQSeTJ3PtT9yi6b7DmqxMEqnQdh6nFA/edit" target="_blank" id="aa">Concord, North Carolina</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1MW0ngl2QxEQ79rQWq2XpgIgySseAjeHMpRrC-qJEGAs/edit" target="_blank" id="aa">Chapel Hill, North Carolina</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1HmrIzycwEJBt38KbV9D7cDhRSReAPhmd4qLeSFEMzYY/edit" target="_blank" id="aa">Fayetteville, North Carolina</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1f39pT4DfGZFXNKkUUZIyIjNcXgfn8ze0/edit?usp=sharing&ouid=112420927257450361346&rtpof=true&sd=true" target="_blank" id="aa">Raleigh, North Carolina</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1t_W03WyWptqW2xAVQXRExT0VOzsndRJUmrQBwMcq5ys/edit?usp=sharing" target="_blank" id="aa">Durham, North Carolina</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1HHeAJHTbEfC2lqytHEwmP4IuTMvwLP9nCyH17eiVR3w/edit?usp=sharing" target="_blank" id="aa">Greensboro, North Carolina</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1upLz-jxsZBVuS2CE6GgVWtQzwWZR9QqUhBkD3wV95lk/edit?usp=sharing" target="_blank" id="aa">Waco, Texas</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1YHVUEZMev8zpsMa2nmVVoc8thLGaO8TIt1PxWR7SnNo/edit?usp=sharing" target="_blank" id="aa">Dallas, Texas</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1q7jZzNV0WM0IaCLYn1xwnDUciRBwaJO6-j6F60Fye5o/edit?usp=sharing" target="_blank" id="aa">Houston, Texas</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1muJ2Nry4wCcHKtqIwEGG9-69WJkepOTudv7VbnquOCs/edit?usp=sharing" target="_blank" id="aa">Fort Worth, Texas</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1qedZJyOLeD63rKC_03y1HR62PA81xlx7KwWdhsXEWZc/edit" target="_blank" id="aa">Austin, Texas</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1qedZJyOLeD63rKC_03y1HR62PA81xlx7KwWdhsXEWZc/edit" target="_blank" id="aa">Round Rock, Texas</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1HiB3sFtLnLJy7gVR-T6L64PfZrSUd_-L5EFpOGkCdkQ/edit?usp=sharing" target="_blank" id="aa">Plano, Texas</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1HAEz8g547sVMWjjZItfCetpFA48u3pyl/edit?usp=sharing&ouid=112420927257450361346&rtpof=true&sd=true" target="_blank" id="aa">Mason, Ohio</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1O2ddr4f7EpDyI6tp3DJZR6BHoLwQ9lJP6fmmGztOkTg/edit?usp=sharing" target="_blank" id="aa">Mason-French, Ohio</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1tMmCM3-W6NJwgpW_fXJ_QAIg0Eju6vOU6_am75-VZ98/edit?usp=sharing" target="_blank" id="aa">Ridgecrest, California</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1BtrjeAl_kO0ZI876CnSL1zAsnuRpueSKqLWDeYaLrFs/edit?usp=sharing" target="_blank" id="aa">Diamond Bar, California</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1or3CObMa7sF7XQoSXNzap7pPaIc2vW4a_dCtBJc_NM4/edit?usp=sharing" target="_blank" id="aa">Chicago, Illinois</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/14PZ3PKMgQnmWmms2yJqvR1lImX8o7SCsdg2MDC8kg4E/edit?usp=sharing" target="_blank" id="aa">Detroit, Michigan</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1E5zuq6nOvlGjLy7PAHF0g2em1caROhqdaWfWN0KD_Tg/edit?usp=sharing" target="_blank" id="aa">New York City, New York</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1gCd7WoGbcRhdTOspTRbEFafDpmZkOZnZBCeYIHVlidg/edit?usp=sharing" target="_blank" id="aa">Seattle, Washington</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/14gzTC0JbgEbuupsPp2unMXcp-wM1XatmIzL-5vBXf2Q/edit?usp=sharing" target="_blank" id="aa">Providence, Rhode Island</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1q9KTUbptuLmH2zX6g0wZ2exE2eBtMdr8-GQw1oxw63I/edit?usp=sharing" target="_blank" id="aa">Pensacola, Florida</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/10nl3v8Pr_ta33P406VeLlpxBE4A233BC7tRQ__1AC6Q/edit?usp=sharing" target="_blank" id="aa">Middlesex, Massachusetts</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1yZN_7IwnPaY3dHk3pFceGmLJeCHzbLnlUYQ-mGlrqEE/edit?usp=sharing" target="_blank" id="aa">Sierra Vista, Arizona</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1utC-XynCNJjHTAN0_PZrdJtWHbH-fDaWHX02yilh-0A/edit" target="_blank" id="aa">Tucson, Arizona</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1TpBU8BxbxQ54G0XtrZLAsq4IRVvyAjAo1Jbg2JoZtGo/edit?usp=sharing" target="_blank" id="aa">St. Louis, Missouri</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1i_5nHdvK1S_ZHRbcygDKIAWQChNYCihH2S1X7tUO8rM/edit?usp=sharing" target="_blank" id="aa">Washington, D.C.</a>
+               </div>
+               <div class="product is-hidden">
+                  <a href="https://docs.google.com/document/d/1thJwuLut7riIgebl2uDtsdYuvSInTwRvK9FWu3HfOoU/edit?usp=sharing" target="_blank" id="aa">Knoxville, Tennesee</a>
+               </div>
+
+
+            </div>
+         </div>
+      </div>
+
+      <div class="slider_container">
+         <div class="slider-container swiper">
+            <div class="slide-content">
+               <div class="card-wrapper swiper-wrapper">
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003458829494792244/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Texas</h2>
+                        <p class="description">Guides for cities such as Plano, Forth Worth, Dallas, Houston, Austin, and Round Rock</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1TY3On7qLGaSLxfy-hTzfX0jC_Wiw5BCl', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="IMAGES/nc-transformed.jpeg" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">North Carolina</h2>
+                        <p class="description">Guides for cities such as Durham, Chapel Hill, Cary, Raleigh, Concord, Fayetville, Apex, and Greensboro</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1qKO02Fp2xwOMveTPQfhZSMi2pkBfBdi5', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003500272368226314/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Michigan</h2>
+                        <p class="description">Guides for cities such as Ann Arbor and Detroit</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1vvvKtdIyAPwV_obnmdrp2SJ6xPu2NGf9', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="IMAGES/FLORIDA.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Florida</h2>
+                        <p class="description">Guides for cities such as Pensacola and Tampa Bay</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/16mw-Q6MxqqHePhTYtEKWvau724HOeRan', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003517302949552190/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Oklahoma</h2>
+                        <p class="description">One guide for Norman</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1UbeqgCkVml60s-6EWwL876K_UGwYw-zY', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003517980715536465/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Ohio</h2>
+                        <p class="description">Two guides for Mason, one in English, and one in French</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1fJg3cTmaXveFbGBDeJvNRNkK2lgwsmuP', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003518525647900732/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Washington</h2>
+                        <p class="description">One guide for Seattle</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1eMbI9c-fDt_QTurDsiIasKmYFjfu-s7T', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="images/dc.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">D.C.</h2>
+                        <p class="description">One guide for the general Washington D.C. area</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/17XmUefEa97TO16_TlNRF8iDl1GhMGu48', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="IMAGES/cali.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">California</h2>
+                        <p class="description">Guides for cities such as Diamond Bar and Ridgecrest</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/11E6JaNnTnNHRsMDIAiQ8sy4WMCx3IEEB', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003755929214406736/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Illinois</h2>
+                        <p class="description">One guide for Chicago</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1kuKva7eEZ4Gc9Z3awpPXZGpqaDtEGnJ6', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003757341767913613/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Rhode Island</h2>
+                        <p class="description">One guide for Providence</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/12FsYkpwEXp_HV4N_KgNq8rlznKUk0WXi', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003757724208734248/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Arizona</h2>
+                        <p class="description">Guides for cities such as Sierra Vista and Tucson</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1NhHN0P7xz07Ce29y5aJfBFxzIlS3ux9_', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003758026878095480/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">New York</h2>
+                        <p class="description">One guide for New York City</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1BySBOBJIR71VcSespG-71hMM0ytu9Bob', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003758716190990366/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Missouri</h2>
+                        <p class="description">One guide for St. Louis</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1d5z4_iFxG_baDnfv7Wx0-YqgWGz6rT7m', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="images/tennessee.jpg" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Tennessee</h2>
+                        <p class="description">One guide for Knoxville</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1shLYtVGxpbPyfOPGKmvfDJzHI9-_KJ5a', '_blank')" >View Guides</button>
+                     </div>
+                  </div>
+                  <div class="card swiper-slide">
+                     <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                           <img src="https://cdn.discordapp.com/attachments/1003446627517870180/1003761197595766804/unknown.png" alt="" class="card-img">
+                        </div>
+                     </div>
+
+                     <div class="card-content">
+                        <h2 class="name">Massachusetts</h2>
+                        <p class="description">One guide for Middlesex</p>
+
+                        <button type="access_btn" onclick="window.open('https://drive.google.com/drive/u/1/folders/1dUhvCWzmH1tqLqi95HgDW09ruiTKGPl4', '_blank')">View Guides</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </div>
+
+      <footer class="footer" id="footer">
+         <div class="footer-container">
+            <div class="row">
+               <div class="footer-col">
+                  <h3>Contact Us</h3>
+                  <ul>
+                     <li><a href="mailto:hustlnpcr@gmail.com">Click Here to Email Us Regarding Questions or Volunteer Opportunities</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+         var typed = new Typed(".auto-type",{
+            strings: ["North Carolina","Texas", "Michigan", "Florida", "Oklahoma", "Ohio", "Washington", "D.C.", "California", "Illinois", "Rhode Island", "Arizona", "New York", "Missouri", "Tennessee", "Massachusetts"],
+            typeSpeed: 90,
+            backSpeed: 90,
+            loop: true
+         })
+      </script>
+   </body>
+   <script src="swiper-bundle.min.js"></script>
+
+   <script src="script.js"></script>
+</html>
